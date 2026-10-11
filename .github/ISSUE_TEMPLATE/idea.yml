@@ -1,0 +1,27 @@
+name: Idea
+description: Suggest an improvement or something new.
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Feature
+      options:
+        - LucidSearch
+        - LucidPush
+        - Seerr requests
+        - LucidTop
+        - LucidFlow
+        - Something new
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What it would change for you or your users

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions about plans, privacy or compatibility
+    url: https://lucidcore.tv/faq
+    about: Most answers are in the FAQ.
+  - name: Your account, a payment or anything private
+    url: https://lucidcore.tv/contact
+    about: Write to the developer through the contact form.

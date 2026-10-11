@@ -1,0 +1,67 @@
+name: Bug report
+description: Something in LucidCore doesn't work as the docs describe.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Most problems are already in [Troubleshooting](https://github.com/Chesyre/LucidCore/blob/main/docs/troubleshooting.md).
+        **Never paste your license key here.** For your account or a payment, use the [contact form](https://lucidcore.tv/contact).
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Feature
+      options:
+        - LucidSearch
+        - LucidPush
+        - Seerr requests
+        - LucidTop
+        - LucidFlow
+        - Installation or license
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: lucidcore-version
+    attributes:
+      label: LucidCore version
+      description: In Emby, Dashboard › Plugins.
+      placeholder: "1.2.1"
+    validations:
+      required: true
+  - type: input
+    id: emby-version
+    attributes:
+      label: Emby Server version
+      placeholder: "4.10"
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Emby Server runs on
+      options:
+        - Windows
+        - Linux
+        - Docker
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: Emby app
+      description: Where you see the problem, if it shows in an app.
+      placeholder: Web browser, Emby for Android TV...
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: LucidCore lines from the Emby log
+      description: In Emby, Dashboard › Logs, open the most recent server log and search for `Lucid`. Remove your license key and server addresses first.
+      render: text
