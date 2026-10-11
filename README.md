@@ -14,6 +14,13 @@
 
 A plugin for Emby Server. Find titles in your library, manage requests from Emby and show recommendations for each person. One plugin, nothing to install in the apps.
 
+**Free plan**, with a free license key and no email needed:
+
+- LucidSearch and LucidPush, unlimited
+- 5 Seerr requests and 5 LucidFlow sorts / month
+- 1 LucidTop row
+- 1 Emby server, unlimited users and devices
+
 ## Features
 
 - **[LucidSearch](docs/lucidsearch.md): find your titles in more languages, at lightning speed.**
@@ -43,7 +50,7 @@ The [install guide](docs/installation.md) walks you through each step, with the 
 
 ## Plans
 
-LucidCore has a free plan. Paid plans raise the monthly allowances and the number of servers: see [Pricing](https://lucidcore.tv/pricing).
+Paid plans raise the monthly allowances and the number of servers: see [Pricing](https://lucidcore.tv/pricing).
 
 ## Your library
 
@@ -57,9 +64,5 @@ LucidCore has a free plan. Paid plans raise the monthly allowances and the numbe
 - [FAQ](https://lucidcore.tv/faq): compatibility, plans, privacy.
 - Found a bug or have an idea? [Open an issue](https://github.com/Chesyre/LucidCore/issues/new/choose). Never paste your license key in an issue.
 - Your account, a payment or anything private: [contact form](https://lucidcore.tv/contact).
-
-## About this repository
-
-The source code of LucidCore is not public. This repository holds its documentation (a copy of [lucidcore.tv/wiki](https://lucidcore.tv/wiki)), the [changelog](CHANGELOG.md), the [releases](https://github.com/Chesyre/LucidCore/releases) and the issue tracker.
 
 Independent plugin. Not affiliated with Emby.
