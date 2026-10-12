@@ -36,7 +36,7 @@ A plugin for Emby Server. Find titles in your library, manage Seerr requests fro
 
 ## Requirements
 
-- Emby Server 4.10 or newer, on Windows or Linux (Docker included). Not macOS.
+- Emby Server 4.10 or newer, on Windows or Linux (Docker included).
 - Nothing to install in the Emby apps. Only the old Emby app for Android TV is partly compatible.
 - No Emby Premiere needed: LucidCore works on its own, with or without Premiere.
 

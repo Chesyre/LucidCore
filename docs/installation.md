@@ -6,7 +6,7 @@ About five minutes. You need access to the computer, NAS or container that runs 
 
 ## Before you start
 
-- Emby Server 4.10 or newer, on Windows or Linux (Docker included). Not macOS.
+- Emby Server 4.10 or newer, on Windows or Linux (Docker included).
 - Nothing to install in the Emby apps. The old Android TV app only partly works, without LucidTop rows.
 - Access to Emby’s files, to copy the plugin.
 - A free license key, no email needed. Emby must reach lucidcore.tv to check it.
