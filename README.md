@@ -12,7 +12,7 @@
 
 # LucidCore
 
-A plugin for Emby Server. Find titles in your library, manage requests from Emby and show recommendations for each person. One plugin, nothing to install in the apps.
+A plugin for Emby Server. Find titles in your library, manage Seerr requests from Emby and show recommendations for each person. One plugin, nothing to install in the apps.
 
 **Free plan**, with a free license key and no email needed:
 
