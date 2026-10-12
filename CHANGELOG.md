@@ -2,6 +2,10 @@
 
 What changed in each version of LucidCore. The plugin file of each version is on the [Releases](https://github.com/Chesyre/LucidCore/releases) page.
 
+## 1.2.2 - 2026-10-12
+
+- Settings page text updates.
+
 ## 1.2.1 - 2026-10-06
 
 ### Seerr requests

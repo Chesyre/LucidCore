@@ -29,7 +29,7 @@ Copy it again from your [account page](https://lucidcore.tv/dashboard) with the 
 <details>
 <summary>The plugin says “max servers limit reached”.</summary>
 
-Every server place in your plan is taken. Remove a server you no longer use from your [account page](https://lucidcore.tv/dashboard), then select Verify License again.
+Every server place in your plan is taken. Remove a server you no longer use from your [account page](https://lucidcore.tv/dashboard), then select Verify License again. If a smaller plan starts at your next renewal, a new server it doesn’t cover is refused too: keep your current plan on your account page to add it.
 
 </details>
 
