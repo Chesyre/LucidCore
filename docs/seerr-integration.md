@@ -60,7 +60,7 @@ LucidCore looks for the Seerr user linked to the Emby user who pressed the heart
 - **Poster quality** (90): Image quality of the posters and backgrounds of these titles, from 10 to 100. Lower loads faster on slow connections.
 - **Overlay Seerr status icon on posters** (On): Adds the status icon. You can set its corner, size, distance from the edge and opacity.
 - **Custom status icons folder** (Optional): Use your own icons: a folder with `pending.png`, `processing.png`, `partially_available.png` and `available.png`.
-- **Texts**: Every label and message viewers see can be reworded. On a title’s page, your message comes first, in bold, with the title’s own description below it. They are in English by default, so translate them if your users speak another language.
+- **Texts**: Every label and message viewers see can be reworded. Leave a Notification badge empty to show none. On a title’s page, your message comes first, in bold, with the title’s own description below it. They are in English by default, so translate them if your users speak another language.
 
 ## Good to know
 
