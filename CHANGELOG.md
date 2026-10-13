@@ -2,6 +2,32 @@
 
 What changed in each version of LucidCore. The plugin file of each version is on the [Releases](https://github.com/Chesyre/LucidCore/releases) page.
 
+## 1.2.3 - 2026-10-13
+
+### LucidSearch
+
+- Emby starts faster: the search index loads in the background, and Emby answers searches until it’s ready.
+- The search index is saved more safely, including when Emby stops, so recent changes survive a restart.
+- Result kinds turned off in the settings are no longer indexed. Turning one back on rebuilds the index.
+- Fewer calls to TMDB when your library updates.
+
+### Seerr requests
+
+- Requestable titles show up the first time you search for them.
+- Requestable title pages open much faster, and apps keep their posters in cache.
+- The message after a request goes only to the person who made it.
+- Requestable title pages no longer list unrelated extras or show an error when the heart is removed.
+
+### LucidTop
+
+- Recommended for you now takes actors, directors, writers and producers into account.
+- Rows show watched marks, favourites and unwatched episode counts like Emby’s own rows, and refresh after you watch something.
+- A row keeps its titles when an update fails.
+
+### LucidFlow
+
+- Seerr now shows a clear error when the webhook secret is wrong.
+
 ## 1.2.2 - 2026-10-12
 
 - Settings page text updates.
