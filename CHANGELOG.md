@@ -2,6 +2,20 @@
 
 What changed in each version of LucidCore. The plugin file of each version is on the [Releases](https://github.com/Chesyre/LucidCore/releases) page.
 
+## 1.3.0 - 2026-10-16
+
+### Seerr requests
+
+- Request status now follows Seerr: approvals, declines and new arrivals show up, for older requests too.
+- New Refresh Seerr Request Status scheduled task: it checks Seerr every 15 minutes. Change how often in Scheduled Tasks.
+- New Declined and Failed status, with their own icons and texts in the Seerr tab. Only the person who asked sees them.
+- A declined title can be requested again.
+- A movie and a series with the same TMDB number no longer share a status.
+
+### LucidTop
+
+- New My Requests row: each person's Seerr requests, newest first, with where each one stands, including those made on the Seerr website. It updates on screen when a request changes.
+
 ## 1.2.3 - 2026-10-13
 
 ### LucidSearch

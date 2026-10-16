@@ -2,7 +2,7 @@
 
 # LucidTop
 
-New rows for the Emby home screen: recommendations for each person, what’s trending, what’s top rated and what others on your server are watching. Every row only shows titles you already have.
+New rows for the Emby home screen: recommendations for each person, what’s trending, what’s top rated, what others on your server are watching and each person’s Seerr requests.
 
 ## The rows you can add
 
@@ -20,6 +20,7 @@ These lists come from TMDB, the free film database, and are narrowed down to wha
 - **Trending, movies and TV together**: Today, or this week.
 - **Popular movies, Popular TV**: What people are watching the most right now.
 - **Top rated movies, Top rated TV**: The best-rated titles of all time.
+- **My requests**: What this person asked for, newest first, with where each request stands. It holds the requests made from Emby, those made on the Seerr website with the Seerr account of their Emby account, and the titles they asked for that someone had already requested. It needs [requests with Seerr](seerr-integration.md).
 
 ## Set it up
 
@@ -71,11 +72,13 @@ Two more options skip people who can’t watch anything anyway: disabled account
 - **Generate Recommendations** (Daily, 4 am): Rebuilds Recommended for you.
 - **TMDB Sections** (Daily, 5 am): Refreshes trending, popular and top rated rows.
 - **Users Recently Watched** (Daily, 6 am): Refreshes Recently watched on this server.
+- **Refresh Seerr Request Status** (Every 15 minutes): Brings My requests up to date.
 
 ## Good to know
 
 > [!NOTE]
-> - Rows only contain titles in your library. Nothing leads to a dead end.
+> - Apart from My requests, rows only contain titles in your library. Nothing leads to a dead end.
+> - My requests shows up once someone has made a request. Each person only sees their own, and it updates on screen when a request changes.
 > - Recently watched on this server shows what others watched, without names. Think about whether everyone on your server is comfortable with that before adding it.
 > - Disabled accounts, and users who can’t see any library, don’t get the extra rows.
 > - Rows appear in every official Emby app, except the old Emby app for Android TV: it isn’t officially supported and can’t show LucidTop rows.

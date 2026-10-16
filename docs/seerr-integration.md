@@ -17,6 +17,10 @@ Posters then show where the request stands:
 - **Processing**: Approved in Seerr; not yet available in your library.
 - **Partially available**: Some episodes of a show are already there.
 - **Available**: It’s in your library.
+- **Declined**: Turned down in Seerr. It can be asked for again.
+- **Failed**: Approved, but Seerr couldn’t pass it on to your movie or series server. You can retry it in Seerr.
+
+Declined and Failed only show to the person who asked, on the title’s page and in their [My requests](lucidtop.md#the-rows-you-can-add) row on the home screen.
 
 > [!NOTE]
 > On Requestable titles, the heart submits a request instead of marking a favourite. A series request includes all seasons and follows the account’s Seerr permissions.
@@ -59,7 +63,7 @@ LucidCore looks for the Seerr user linked to the Emby user who pressed the heart
 - **Hide items without a poster** (Off): Leaves out obscure titles that have no artwork.
 - **Poster quality** (90): Image quality of the posters and backgrounds of these titles, from 10 to 100. Lower loads faster on slow connections.
 - **Overlay Seerr status icon on posters** (On): Adds the status icon. You can set its corner, size, distance from the edge and opacity.
-- **Custom status icons folder** (Optional): Use your own icons: a folder with `pending.png`, `processing.png`, `partially_available.png` and `available.png`.
+- **Custom status icons folder** (Optional): Use your own icons: a folder with `pending.png`, `processing.png`, `partially_available.png`, `available.png`, `declined.png` and `failed.png`.
 - **Texts**: Every label and message viewers see can be reworded. Leave a Notification badge empty to show none. On a title’s page, your message comes first, in bold, with the title’s own description below it. They are in English by default, so translate them if your users speak another language.
 
 ## Good to know
@@ -67,5 +71,6 @@ LucidCore looks for the Seerr user linked to the Emby user who pressed the heart
 > [!NOTE]
 > - Searches need at least two letters.
 > - Requestable can also list titles someone already asked for or that are already available. Their status is shown, so nobody asks twice.
+> - Statuses follow Seerr: a declined request can be made again. LucidCore checks Seerr every 15 minutes; change it in **Dashboard › Scheduled Tasks › Seerr**.
 > - LucidCore waits about two seconds for Seerr at most, so a slow Seerr never makes Emby slow. It just shows fewer Requestable results.
 > - Requests use the heart button that is already on every title’s page, so they work in the official Emby apps with nothing to install.
