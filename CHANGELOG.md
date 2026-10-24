@@ -2,6 +2,22 @@
 
 What changed in each version of LucidCore. The plugin file of each version is on the [Releases](https://github.com/Chesyre/LucidCore/releases) page.
 
+## 1.3.1 - 2026-10-24
+
+### Seerr requests
+
+- The first sync brings in every request already made on the Seerr website, with its name and poster, in one go.
+- The 15-minute sync now reads only what can still change, which is much lighter on a large Seerr.
+- The Seerr cleanup task now runs once a week and rechecks everything with Seerr.
+
+### LucidTop
+
+- Max items is no longer limited to 100.
+
+### General
+
+- The progress bar of LucidCore's scheduled tasks moves as the work goes.
+
 ## 1.3.0 - 2026-10-16
 
 ### Seerr requests

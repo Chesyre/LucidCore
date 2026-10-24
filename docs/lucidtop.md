@@ -43,7 +43,7 @@ These lists come from TMDB, the free film database, and are narrowed down to wha
 ## Settings for each row
 
 - **Display name**: The title shown above the row, in any language.
-- **Max items** (20 or 30): How many titles the row shows, from 1 to 100.
+- **Max items** (20 or 30): How many titles the row shows.
 - **Media filter**: Movies, TV series, or both.
 - **Position** (−1): 0 puts the row first. A higher number places it among Emby’s own rows. −1 adds it after them, −2 after that, and so on.
 - **Enabled** (On): Hide a row without deleting it.
@@ -78,7 +78,7 @@ Two more options skip people who can’t watch anything anyway: disabled account
 
 > [!NOTE]
 > - Apart from My requests, rows only contain titles in your library. Nothing leads to a dead end.
-> - My requests shows up once someone has made a request. Each person only sees their own, and it updates on screen when a request changes.
+> - My requests shows up once someone has made a request. Each person only sees their own, and it updates on screen when a request changes. The first sync brings in the requests already made on the Seerr website and can take a few minutes.
 > - Recently watched on this server shows what others watched, without names. Think about whether everyone on your server is comfortable with that before adding it.
 > - Disabled accounts, and users who can’t see any library, don’t get the extra rows.
 > - Rows appear in every official Emby app, except the old Emby app for Android TV: it isn’t officially supported and can’t show LucidTop rows.
