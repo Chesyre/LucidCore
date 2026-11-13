@@ -64,8 +64,8 @@ In **LucidCore › Search**. The defaults suit most servers.
 - **Additional translated title languages**: Two-letter codes, separated by commas. Your server’s language is always included.
 - **Max results per type** (10): How many movies, shows, people and so on to show for each kind (1 to 500).
 - **Minimum match quality** (0 %): Hides weak matches. Leave at 0 to show everything.
-- **Movies, TV shows, Episodes, Seasons, People, Collections, Studios** (All on): Choose which kinds of results appear.
-- **Priority for each kind (1 to 10)**: Higher numbers come first. Movies and shows start at 6, people at 4, the rest at 2.
+- **Movies, TV shows, Episodes, Seasons, People, Collections, Studios** (All on): Choose which kinds of results appear. A kind switched off never appears, not even from Emby’s search.
+- **Priority for each kind (1 to 10)**: Among results that match the search equally well, higher numbers come first. Movies and shows start at 6, people at 4, the rest at 2.
 
 ## Scheduled tasks
 
@@ -78,5 +78,6 @@ In **Dashboard › Scheduled Tasks › LucidSearch**:
 ## Good to know
 
 > [!NOTE]
-> - Music isn’t part of LucidSearch. Searches that include music use Emby’s normal search.
+> - Music, books, playlists and everything else LucidSearch doesn’t cover come from Emby’s own search and appear with LucidSearch’s results.
+> - Searches with filters, such as favourites only, use Emby’s own search.
 > - With [Seerr requests](seerr-integration.md) on, search also shows titles people can ask for.

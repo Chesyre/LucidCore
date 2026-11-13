@@ -2,6 +2,21 @@
 
 What changed in each version of LucidCore. The plugin file of each version is on the [Releases](https://github.com/Chesyre/LucidCore/releases) page.
 
+## 1.4.0 - 2026-11-13
+
+### LucidSearch
+
+- Music, books, photos, playlists and everything else LucidSearch doesn't cover now come from Emby's own search and appear with LucidSearch's results. A kind switched off in the settings stays hidden.
+- Results that best match the search come first, whatever their kind. The priority of each kind now only decides between results that match equally well.
+- More relevant results, especially on very large libraries.
+- Searching inside one library is much faster.
+- Libraries set to "Exclude from search" in Emby are now left out of LucidSearch's results too.
+- After the update, LucidSearch fetches alternative titles again once, in the background.
+
+### General
+
+- Copies of titles made by other plugins, such as Home Screen Companion's top lists, no longer show up in place of the real title in search, LucidTop rows, Recommended for you and notifications.
+
 ## 1.3.1 - 2026-10-24
 
 ### Seerr requests
