@@ -2,6 +2,20 @@
 
 What changed in each version of LucidCore. The plugin file of each version is on the [Releases](https://github.com/Chesyre/LucidCore/releases) page.
 
+## 1.4.1 - 2026-11-20
+
+### LucidSearch
+
+- Faster search, especially while typing.
+- A title no longer shows up because of its studio.
+- Lighter search index.
+- The index is rebuilt once after the update; Emby's own search answers while it rebuilds.
+
+### Seerr
+
+- Requestable titles are also found by their original title, however they're typed.
+- More complete Requestable results.
+
 ## 1.4.0 - 2026-11-13
 
 ### LucidSearch

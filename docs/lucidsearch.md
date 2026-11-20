@@ -25,7 +25,7 @@ The steps to switch this on are [below](#add-alternative-titles). It needs a fre
 
 ## Choose what search shows
 
-Search can return movies, shows, seasons, episodes, people, collections and studios. You decide which ones appear, and in what order. For example, turn off episodes and seasons, and a search for a show returns the show itself instead of a long list of its episodes.
+Search can return movies, shows, seasons, episodes, people, collections and studios. You decide which ones appear, and in what order. For example, turn off episodes, and episode titles no longer appear next to movies and shows.
 
 - Switch each kind of result on or off.
 - Give each kind a priority from 1 to 10 to push movies or shows to the top.
@@ -71,7 +71,7 @@ In **LucidCore › Search**. The defaults suit most servers.
 
 In **Dashboard › Scheduled Tasks › LucidSearch**:
 
-- **Rebuild Search Database** (When needed): Reads the whole library again. Run it if results look wrong or incomplete.
+- **Rebuild Search Database** (When needed): Reads the whole library again. Run it if results look wrong or incomplete. Emby’s own search answers while it runs.
 - **Refresh TMDB Metadata** (Sundays, 3 am): Refreshes title metadata for movies and shows released in the last 30 days or coming soon.
 - **Force Refresh TMDB Metadata** (When needed): Applies a new TMDB key or new languages to the whole library.
 
